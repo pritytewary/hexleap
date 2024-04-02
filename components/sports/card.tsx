@@ -21,7 +21,7 @@ export function Card({
 }) {
   return (
     <Link
-      className="rounded-sm shadow-sm p-4 aspect-[9/16] bg-card flex flex-col space-y-3 h-full"
+      className="shadow-sm p-4 aspect-[9/18] bg-card flex flex-col space-y-3 h-full"
       href={href}
       target={newTab ? "_blank" : "_self"}
       rel={newTab ? "noopener noreferrer" : undefined}

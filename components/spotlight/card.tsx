@@ -13,7 +13,7 @@ export function SpotlightCard({
 }: ISpotlightItem) {
   return (
     <div className="rounded-sm shadow-sm flex flex-col h-full relative">
-      <div className="flex-1 w-full rounded-xs overflow-hidden p-4 aspect-[10/17] dark:bg-white bg-black bg-opacity-5 dark:bg-opacity-5 shadow-md">
+      <div className="flex-1 w-full rounded-xs overflow-hidden p-4 aspect-[10/17] dark:bg-white bg-black bg-opacity-5 dark:bg-opacity-5">
         <Image
           src={imageUri}
           alt={title}
